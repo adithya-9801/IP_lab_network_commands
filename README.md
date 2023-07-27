@@ -2,20 +2,27 @@
 ip lab network commands
 1. IPCONFIG
 IPCONFIG command is used to display the IPv4, IPv6, subnet mask, default Gateway of all the network adapters in the system.
-![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/04b32d42-27b2-462e-9b79-687a20209528)
+![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/23edd1c5-3b08-42c2-a089-f95c01995ace)
+
 Sub parameters of ipconfig-
  * IPCONFIG /all --  Similar to IPCONFIG, it provide extra details like DNS Server Address, DHCP Server Address, IP's expiration Period.
-![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/50536d36-ff83-4923-8640-1bbbb56b9236)
+![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/2a398c01-aeb6-467e-ad85-5562850dd5e0)
+
 * IPCONFIG /release -- This command is used to erase the current IP Information for a specified network Adapter.
-![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/5c4ebde9-8334-4b42-bca7-f891307909e2)
+  ![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/8fc6d9d6-801b-4dd3-a306-975d3535c3f3)
+
 *IPCONFIG /renew -- This command is used to renew the IP Information that is erased using the release command.
-![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/5c4ebde9-8334-4b42-bca7-f891307909e2)
+![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/23334e24-82c4-49bc-a52b-8b5cbcb51c38)
+
 *IPCONFIG /displaydns -- This command is used to display the DNS Information of the websites that is stored in the DNS Resolver Cache.
-![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/085bde7d-5f72-404f-92e7-995953b485a3)
+![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/d74d886a-a1bf-4fe4-ad2c-c31a114f583c)
+
 * IPCONFIG /flushdns -- This command is used to clear or fulsh the DNS Information of the Website that is Stored in the DNS Resolver Cache
- ![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/085bde7d-5f72-404f-92e7-995953b485a3)
+![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/a9764b73-43b5-4121-bd95-d62c63d540a4)
+
 *IPCONFIG /registerdns -- This command manually registers DNS Record for the specific Network Adapter.
-![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/38cb571a-5939-4a97-a8cf-156e3e378b28)
+![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/a7762748-69cb-42b3-bf23-6512f0e4ecda)
+
 
 2.PING 
 PING Command is used to test the reachability of the Host in the IP Network by sending the ICMP Packets.
@@ -27,12 +34,14 @@ Parameters of ping:-
 * ping -l : Similar to PING Command,  we are add a flag -l 64 which specifies the size of the ICMP Packets in Bytes. The Default Packet size is 32 Bytes.
 
 * ping -f : Allows fragmentation, mainly used for data loss and checks the receiver's capacity upto which extent it receives the data
-  ![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/43656fc9-018c-4647-8344-fe170275d2d2)
-  ![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/d7d0d7d0-8549-4c6a-adeb-bfb4925d09cb)
+ ![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/d6829eec-6c4e-4813-810d-17b384fc57c6)
+![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/316a42c6-55aa-45f9-9dd7-c7b6d5d9f586)
+
 
 3. Tracert:
    displays the number of hops/systems between the source and destination (ie) how many devices it traverses during the entire transmission.
-   ![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/e38b68be-461a-4ad6-afe6-7afe51b6be7a)
+![image](https://github.com/adithya-9801/IP_lab_network_commands/assets/103358857/c9857a32-1c31-4809-89d9-626d3fd14959)
+
 
 4. Nslookup:
    Utilized to obtain information about domain names or IP addresses.
